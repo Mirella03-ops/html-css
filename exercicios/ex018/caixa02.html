@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags semantica</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(82, 29, 131, 0.473);
+            margin: 0px;
+        }
+        header {
+            width: 600px;
+            background-color: blueviolet;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header > a{
+            color: white;
+            background-color: rgb(0, 0, 0);
+            padding: 10px;
+        }
+        article{
+            background-color: rgba(33, 5, 56, 0.774);
+            padding: 5px;
+        }
+
+        article > aside{
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+        main{
+            background-color: blueviolet;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 4px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Homem</h1>
+        <a href="#">G</a>
+        <a href="#">A</a>
+        <a href="#">T</a>
+        <a href="#">O</a>
+        <a href="#">!</a>
+    </header>
+    <main>
+        <section id="Gostoso">
+
+        </section>
+        <section id="Maravilhoso">
+            <article>
+                <h2>Ele é incrivel</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias iste laudantium, architecto ratione minima aut, a nulla enim maxime dolores sed autem nam ullam velit quibusdam sit blanditiis? Ea, corporis.</p>
+                <aside>
+                    <p>Ele é meu mundo</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Mirella</p>
+    </footer>
+</body>
+</html>

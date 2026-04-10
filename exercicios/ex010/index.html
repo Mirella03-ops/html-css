@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+<body>
+    <h1>Links Externos</h1> <!-- Link que aponta para outro site, que não é nosso. -->
+    <p>Neste Link, te encaminhará para uma <a href="https://www.receiteria.com.br/receita/brownie/" target="_blank" rel="external">receita de brownie.</a></p> <!-- A Tag "a" significa "âncora" e ele logo dá uma referência de hipertexto (Onde o site vai). o rel significa "Relativo a" e o Target blank significa janela em branco -->
+   <h1>Criando Links Internos</h1> <!-- Faz uma relação com outra página dentro do servidor -->
+   <p>Está e a primeira página do site, se você quiser ir para a segunda via, basta clicar neste <a href="pag002.html" rel="next" target="_self">Link</a></p> <!-- O Link interno não precisa indicar o url inteira, basta coloca a pagina solicitada, contanto que a pagina esteja na mesma pasta que o index -->
+   <p>Você também pode conhecer a nossa página de noticias <a href="Noticia/pag003.html" target="_self">basta clicar aqui</a></p>
+   <h1>Links para download</h1>
+   <ul>
+    <li> <a href="Livros/É assim que acaba PDF.pdf" download="É assim que acaba PDF.pdf" type="application/pdf">Baixar o livro em pdf</a></li>
+   </ul>
+</body>
+</html>
