@@ -12,10 +12,11 @@
 </head>
 <body>
     <h1>Teste do formulário</h1>
-    <form action="cadastro.php" method="post" autocomplete="off">
-        <p><label for="inome">Nome: </label><input type="text" name="nome" id="inome" required minlength="5" maxlength="10" autocomplete="username"></p>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p><label for="inome">Nome: </label><input type="text" name="nome" id="inome" required minlength="5" maxlength="10" autocomplete="username" placeholder="Nome Curto"></p>
         <p><label for="isobrenome">Sobrenome: </label><input type="text" name="sobrenome" id="isobrenome" placeholder="sobrenome pequeno"></p>
         <p><label for="imes">Mês de aniversário: </label><input type="month" name="Mês" id="imes"></p>
+        <p><label for="idata">Data: </label> <input type="date" name="Data" id="idata"></p>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
 
